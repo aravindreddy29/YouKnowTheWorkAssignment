@@ -1,0 +1,23 @@
+.bg-gender-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #1c1c2b;
+  margin-top: 20px;
+}
+
+.vaccination-by-gender-heading {
+  text-align: start;
+  color: #cbd5e1;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.pieChart-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

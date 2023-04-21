@@ -1,0 +1,112 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.createTask-container {
+  background-color: #131213;
+  width: 40%;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.heading {
+  text-align: center;
+  color: #f3aa4e;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+.label {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.input {
+  height: 35px;
+  outline: none;
+  padding: 10px;
+}
+.select {
+  height: 35px;
+  outline: none;
+  padding-left: 10px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.button {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.tasks-container {
+  background-color: #000000;
+  width: 60%;
+  padding: 30px;
+}
+.tags-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+.tagItem {
+  list-style: none;
+  margin-right: 30px;
+}
+.tagButton {
+  height: 35px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #f3aa4e;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.task-heading {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterButton {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.task-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}

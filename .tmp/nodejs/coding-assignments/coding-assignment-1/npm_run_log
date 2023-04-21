@@ -1,0 +1,66 @@
+  console.log
+    Server is running on http://localhost:3000/
+
+      at Server.<anonymous> (../app.js:19:15)
+
+  console.log
+    true
+
+      at ../app.js:245:11
+
+  console.log
+    2021-04-02
+
+      at ../app.js:248:13
+
+  console.log
+    false
+
+      at ../app.js:245:11
+
+  console.log
+    { status: 'IN PROGRESS' }
+
+      at ../app.js:302:11
+
+  console.log
+    { priority: 'HIGH' }
+
+      at ../app.js:302:11
+
+  console.log
+    { todo: 'Priority task' }
+
+      at ../app.js:302:11
+
+  console.log
+    { category: 'WORK' }
+
+      at ../app.js:302:11
+
+  console.log
+    { dueDate: '2021-10-18' }
+
+      at ../app.js:302:11
+
+  console.log
+    { dueDate: '2021/??/AS' }
+
+      at ../app.js:302:11
+
+  console.log
+    { status: 'WELL' }
+
+      at ../app.js:302:11
+
+  console.log
+    { priority: 'slfianei' }
+
+      at ../app.js:302:11
+
+  console.log
+    { category: '2021/??/AS' }
+
+      at ../app.js:302:11
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

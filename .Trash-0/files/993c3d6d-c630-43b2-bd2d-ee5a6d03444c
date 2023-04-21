@@ -1,0 +1,4 @@
+import { myArray, bulb, multiplyByFour(num) } from "./exportMultipleValues";
+console.log(myArray);
+console.log(bulb);
+console.log(multiplyByFour);

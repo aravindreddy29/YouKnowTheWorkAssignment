@@ -1,0 +1,18 @@
+.bg-prime-container {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+
+.prime-video {
+  height: 180px;
+  width: 1266px;
+}
+
+.movies-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

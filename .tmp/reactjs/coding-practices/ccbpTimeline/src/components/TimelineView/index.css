@@ -1,0 +1,38 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1110px;
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.heading {
+  text-align: center;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2.7;
+  margin: 0px;
+}
+
+.ccbp-heading {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0px;
+}

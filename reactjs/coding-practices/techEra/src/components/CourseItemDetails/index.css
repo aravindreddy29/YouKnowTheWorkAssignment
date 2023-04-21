@@ -1,0 +1,38 @@
+.course-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 80vw;
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 15px #f1f1f1;
+}
+
+.course-image {
+  height: 350px;
+  width: 340px;
+  margin: 10px;
+}
+
+.course-desc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 60vh;
+}
+
+.course-name {
+  margin-top: 0;
+  font-size: 35px;
+  font-family: 'Consolas';
+}
+
+.course-desc {
+  font-size: 15px;
+  margin-top: 0;
+  font-family: 'Consolas';
+}

@@ -1,0 +1,31 @@
+Cleared /tmp/jest_0
+  console.error
+    Warning: Received `false` for a non-boolean attribute `color`.
+    
+    If you want to write it to the DOM, pass a string instead: color="false" or color={value.toString()}.
+    
+    If you used to conditionally omit it with color={condition && value}, pass color={condition ? value : undefined} instead.
+        at button
+        at Button (/home/workspace/.tmp/reactjs/coding-practices/textEditor/node_modules/.pnpm/styled-components@5.3.0_react-dom@17.0.1+react@17.0.1/node_modules/styled-components/src/models/Keyframes.js:20:51)
+        at li
+        at ListItem (/home/workspace/.tmp/reactjs/coding-practices/textEditor/node_modules/.pnpm/styled-components@5.3.0_react-dom@17.0.1+react@17.0.1/node_modules/styled-components/src/models/Keyframes.js:20:51)
+        at ul
+        at InputStylesContainer (/home/workspace/.tmp/reactjs/coding-practices/textEditor/node_modules/.pnpm/styled-components@5.3.0_react-dom@17.0.1+react@17.0.1/node_modules/styled-components/src/models/Keyframes.js:20:51)
+        at div
+        at BannerRightPart (/home/workspace/.tmp/reactjs/coding-practices/textEditor/node_modules/.pnpm/styled-components@5.3.0_react-dom@17.0.1+react@17.0.1/node_modules/styled-components/src/models/Keyframes.js:20:51)
+        at div
+        at TextEditorContainer (/home/workspace/.tmp/reactjs/coding-practices/textEditor/node_modules/.pnpm/styled-components@5.3.0_react-dom@17.0.1+react@17.0.1/node_modules/styled-components/src/models/Keyframes.js:20:51)
+        at div
+        at MainContainer (/home/workspace/.tmp/reactjs/coding-practices/textEditor/node_modules/.pnpm/styled-components@5.3.0_react-dom@17.0.1+react@17.0.1/node_modules/styled-components/src/models/Keyframes.js:20:51)
+        at TextEditor (/home/workspace/.tmp/reactjs/coding-practices/textEditor/src/components/TextEditor/index.js:21:36)
+        at App
+
+      at printWarning (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at validateProperty$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3523:9)
+      at warnUnknownProperties (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3559:21)
+      at validateProperties$2 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3583:3)
+      at validatePropertiesInDevelopment (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:8765:5)
+      at setInitialProperties (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:9041:5)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

@@ -1,0 +1,23 @@
+Cleared /tmp/jest_0
+  console.error
+    Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.
+        at CowinDashboard (/home/workspace/.tmp/reactjs/coding-practices/cowinDashboard/src/components/CowinDashboard/index.js:17:40)
+        at App
+
+      55 |         ),
+      56 |       }
+    > 57 |       this.setState({
+         |            ^
+      58 |         vaccinationData: updatedData,
+      59 |         apiStatus: apiStatusConstants.success,
+      60 |       })
+
+      at printWarning (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnAboutUpdateOnUnmountedFiberInDEV (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23914:9)
+      at scheduleUpdateOnFiber (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:21840:5)
+      at Object.enqueueSetState (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12467:5)
+      at CowinDashboard.setState (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react.development.js:365:16)
+      at CowinDashboard.getVaccinationData (src/components/CowinDashboard/index.js:57:12)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

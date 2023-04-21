@@ -1,0 +1,21 @@
+.bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.image {
+  height: 250px;
+}
+
+.para {
+  color: #f1f5f9;
+  font-size: 30px;
+}
+
+.description {
+  color: #f1f5f9;
+  font-size: 23px;
+}
