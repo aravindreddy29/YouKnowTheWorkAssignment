@@ -1,6 +1,0 @@
-  console.log
-    Server is running
-
-      at Server.<anonymous> (../app.js:22:15)
-
-**  jest-stare --reporters: wrote output report to .results/results.html	**

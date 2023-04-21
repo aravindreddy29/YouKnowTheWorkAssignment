@@ -1,6 +1,0 @@
-  console.log
-    Hello Rahul! Mock Text
-
-      at Object.<anonymous> (../message/index.js:5:9)
-
-**  jest-stare --reporters: wrote output report to .results/results.html	**
